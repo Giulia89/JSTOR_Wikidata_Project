@@ -4,7 +4,7 @@ import numpy as np
 import os
 import matplotlib as plt
 
-path = r'C:\Users\mitta\Documents\Giulia\jstor' # file location is always r"..."
+path = r'C:\' # file location is always r"..."
 
 append_df = pd.DataFrame()
 for filename in os.listdir(path):
